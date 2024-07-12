@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 
 
+//tried to move my test over to a new shit but hey dont get regonised
+
 test('product desc checker ',async ({ page }) => {
     await page.goto('https://www.demoblaze.com/')
     await page.getByRole('link', { name: 'Samsung galaxy s6' }).click();
