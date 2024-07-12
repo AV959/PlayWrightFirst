@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 
-//tried to move my test over to a new shit but hey dont get regonised
+//tried to move my test over to a new sheet but they dont get regonised
 
 test('product desc checker ',async ({ page }) => {
     await page.goto('https://www.demoblaze.com/')
